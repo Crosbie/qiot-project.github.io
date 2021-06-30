@@ -1,0 +1,2472 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-30T00:39:17+00:00</updated><id>/feed.xml</id><title type="html">QIoT project</title><subtitle>Quarkus meets Internet of Things</subtitle><entry><title type="html">Call for proposals 2021</title><link href="/blog/call-for-proposals-2021/" rel="alternate" type="text/html" title="Call for proposals 2021" /><published>2021-04-20T00:00:00+00:00</published><updated>2021-04-20T00:00:00+00:00</updated><id>/blog/call-for-proposals-2021</id><content type="html" xml:base="/blog/call-for-proposals-2021/">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Hi everyone!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It&amp;#8217;s time for the QIoT community to focus on a new Edge Computing use-case.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We are calling you all for proposals as we believe our contribution should meet the expectations and the needs and should help addressing risks and challenges of the Edge Computing ecosystem: Subject Matter Experts, System Integrators, Customers, etc&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;A new use-case is a great stepping-stone to modernize existing architectures and keep improving the blueprints adhering to the latest specs. To give you a few examples:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Certificate provisioning and mutual authentication&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Edge workload distribution&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cloud-native events&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Distributed CI/CD&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pipelines and charts&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;With some boundaries:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&quot;underline&quot;&gt;Container Platform&lt;/span&gt; of choice: &lt;strong&gt;Openshift&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&quot;underline&quot;&gt;Cloud-Native framework&lt;/span&gt; of choice: &lt;strong&gt;Quarkus&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;proposal-submission-how-to&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#proposal-submission-how-to&quot;&gt;&lt;/a&gt;Proposal submission: How to&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fork&lt;/strong&gt; the &lt;a href=&quot;https://github.com/qiot-project/qiot-ubi-use-case-proposals&quot;&gt;repository&lt;/a&gt; we created to collect all the proposal submissions;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a &lt;strong&gt;sub-folder under &quot;2021&quot;&lt;/strong&gt; and name it with the name of your proposal and place all your submission content there:&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Create &lt;strong&gt;README&lt;/strong&gt; to argument the followings:&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Vertical (e.g.: manufacturing, automotive, telco, healthcare, etc) the use-case falls into;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use-case;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Technology stack;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add everything that could draw a clear and understandable big picture of your proposal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Submit a PR to get your content merged;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We&amp;#8217;ve set up &lt;strong&gt;GitHub Discussion&lt;/strong&gt; on the &lt;a href=&quot;https://github.com/qiot-project/qiot-ubi-use-case-proposals/discussions&quot;&gt;repository&lt;/a&gt; to encourage and support open discussion and debate around the submitted proposals.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The best proposals will be put to the vote by public survey.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;underline&quot;&gt;&lt;strong&gt;Deadline: May 24th 2021&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;The QIoT team&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Andrea Battaglia</name><email>abattagl@redhat.com</email></author><category term="announcement" /><category term="announcement" /><summary type="html">Hi everyone!</summary></entry><entry><title type="html">Quarkus Secure on the Edge</title><link href="/blog/qiot-cert-manager/" rel="alternate" type="text/html" title="Quarkus Secure on the Edge" /><published>2021-04-01T00:00:00+00:00</published><updated>2021-04-01T00:00:00+00:00</updated><id>/blog/qiot-cert-manager</id><content type="html" xml:base="/blog/qiot-cert-manager/">&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;intro&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#intro&quot;&gt;&lt;/a&gt;Intro&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This is the first part around Security on the Edge topics.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;When discussing IoT device and edge computing, secure end-to-end device connectivity is critical to consider in this extra layer of complexity.
+How is it possible to automate and securely integrate thousand of devices?
+Quarkus IoT team decided for the certificate management to choose &lt;a href=&quot;https://cert-manager.io&quot;&gt;cert-manager&lt;/a&gt;, which is built on top of Kubernetes to provide 'certificates as services' developers working in Kubernetes cluster.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Here the Cert Managers Highlight:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Provide easy to use tools to manage certificates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A standardised API for interacting with multiple certificate authorities (CAs).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gives security teams the confidence to allow developers to self-server certificates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Support for ACME (Let&amp;#8217;s Encrypt), HashiCorp Vault, Venafi, self-signed and internal certificate authorities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Extensible to support custom, internal or otherwise unsupported CAs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;architecture-overview&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#architecture-overview&quot;&gt;&lt;/a&gt;Architecture Overview&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;image&quot;&gt;&lt;img src=&quot;/assets/images/posts/qiot-cert-manager/architecture.png&quot; alt=&quot;architecture&quot; width=&quot;100%&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;The device sends a request to Registration Service API. Only devices with the proper Certificate are allowed to send the request.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The registration based on the device request payload starts to create the Certificate resource, and it watches the resource for an update.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;cert-manager&lt;/code&gt; operator detects the new &lt;code&gt;Certificate&lt;/code&gt;, and it starts the reconciliation process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Based on the &lt;code&gt;Certificate&lt;/code&gt; and &lt;code&gt;Issuer&lt;/code&gt; information, the &lt;code&gt;cert-manager&lt;/code&gt; creates a CSR and requests the Certificate to PKI.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;cert-manager&lt;/code&gt; once get the Certificate it updates the secret with the correct key, Certificate and Certificate authority.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Due to the asynchronous mechanism, the registration service will wait until the certificate information is available in the secret resource.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The registration sends the device certificate as a response to the device.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;issuer&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#issuer&quot;&gt;&lt;/a&gt;Issuer&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;code&gt;Issuer&lt;/code&gt;, and &lt;code&gt;ClusterIssuer&lt;/code&gt;, are Kubernetes resources representing certificate authorities (CAs) that can generate signed certificates by honouring certificate signing requests. All certificates require a referenced issuer that is in a ready condition to attempt to keep the request.
+An example of an Issuer type is CA. A simple CA Issuer is as follows:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-yaml hljs&quot; data-lang=&quot;yaml&quot;&gt;apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+  name: qiot-ca-sample
+spec:
+  ca:
+    secretName: qiot-ca&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This is a simple &lt;code&gt;Issuer&lt;/code&gt; that will sign certificates based on a private key. The certificate stored in the secret &lt;code&gt;ca-key-pair&lt;/code&gt; can then be used to trust newly signed certificates by this &lt;code&gt;Issuer&lt;/code&gt; in a Public Key Infrastructure (PKI) system.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;An &lt;code&gt;Issuer&lt;/code&gt; is a namespaced resource, and it is not possible to issue certificates from an &lt;code&gt;Issuer&lt;/code&gt; in a different namespace. It means you will need to create an &lt;code&gt;Issuer&lt;/code&gt; in each namespace you wish to obtain &lt;code&gt;Certificate&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock note&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;i class=&quot;fa icon-note&quot; title=&quot;Note&quot;&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+Quarkus IoT team decided to use Hashicorp Vault as internal PKI. The next part will explore in details this integration.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;certificate&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#certificate&quot;&gt;&lt;/a&gt;Certificate&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;code&gt;Certificate&lt;/code&gt; that define the desired x509 certificate which will be renewed and kept up to date. A &lt;code&gt;Certificate&lt;/code&gt; is a namespaced resource that references an &lt;code&gt;Issuer&lt;/code&gt; or &lt;code&gt;ClusterIssuer&lt;/code&gt; that determine what will be honouring the certificate request.
+When a &lt;code&gt;Certificate&lt;/code&gt; is created, a corresponding &lt;code&gt;CertificateRequest&lt;/code&gt; resource is created by &lt;code&gt;cert-manager&lt;/code&gt; containing the encoded x509 certificate request.
+Here is one example of a Certificate resource.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-yaml hljs&quot; data-lang=&quot;yaml&quot;&gt;apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: qiot-device-sample
+spec:
+  dnsNames:
+    - mydeviceid.qiot-project.github.io
+    - mydeviceid.qiot-project.svc
+  secretName: qiot-device-sample-cert
+  issuerRef:
+    name: qiot-ca-sample&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This &lt;code&gt;Certificate&lt;/code&gt; will tell &lt;code&gt;cert-manager&lt;/code&gt; to attempt to use the &lt;code&gt;Issuer&lt;/code&gt; named &lt;code&gt;qiot-ca-sample&lt;/code&gt; to obtain a certificate key pair for the &lt;code&gt;mydeviceid.qiot-project.github.io&lt;/code&gt; and &lt;code&gt;mydeviceid,qiot-project.svc&lt;/code&gt; domains. If successful, the resulting TLS key and certificate will be stored in secret named &lt;code&gt;qiot-device-sample-cert&lt;/code&gt;, with key of &lt;code&gt;tls.key&lt;/code&gt;, and &lt;code&gt;tls.crt&lt;/code&gt; respectively.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This secret will live in the same namespace as the &lt;code&gt;Certificate&lt;/code&gt; resource. Additionally, if the Certificate Authority is known, the corresponding CA certificate is stored in secret with key &lt;code&gt;ca.crt&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The &lt;code&gt;dnsNames&lt;/code&gt; field specifies a list of Subject Alternative Names to be associated with the certificate.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The referenced &lt;code&gt;Issuer&lt;/code&gt; must exist in the same namespace as the &lt;code&gt;Certificate&lt;/code&gt;. A &lt;code&gt;Certificate&lt;/code&gt; can alternatively reference a &lt;code&gt;ClusterIssuer&lt;/code&gt; that is non namespaced and can be referenced from any namespace.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;certificaterequest&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#certificaterequest&quot;&gt;&lt;/a&gt;CertificateRequest&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The &lt;code&gt;CertificateRequest&lt;/code&gt; is a namespaced resource in cert-manager used to request x509 certificates from an &lt;code&gt;Issuer&lt;/code&gt;. The resource contains a
+base64 encoded string of a PEM encoded certificate request sent to the referenced issuer.
+A successful issuance will return a signed certificate based on the certificate signing request.
+&lt;code&gt;CertificateRequest&lt;/code&gt; are typically consumed and managed by controllers or other systems and should not be used by humans - unless specifically needed. A simple &lt;code&gt;CertificateRequest&lt;/code&gt; looks like the following:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-yaml hljs&quot; data-lang=&quot;yaml&quot;&gt;apiVersion: cert-manager.io/v1
+kind: CertificateRequest
+metadata:
+  name: qiot-device-sample-wnjp5
+spec:
+  issuerRef:
+    name: qiot-ca-sample
+  request: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURSBSRVFVRVNULS0tLS0KTUlJQ3ZUQ0NBYVVDQVFBd0xERXFNQ2dHQTFVRUF4TWhiWGxrWlhacFkyVnBaQzV4YVc5MExYQnliMnBsWTNRdQpaMmwwYUhWaUxtbHZNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQTFCbngyNlUwCk5rUUxrbzZzZlExK1RCUE5Ud0t6NVpSRnhQK1VycTRCL0U4Vm5RNGt3SUhzSXJXMHozRkE3WC9GUTh6ZEtRNjYKMCtyRkFpQ3ROVDllWEZWRVpmVUowNC9Kb21sc3pVV2JDYmhZejcvVGhSTHE0Nm44U0FTclVCaUNDU2JFQTBsOQp1ZFg1ZEFYT3QxVmxZeVdhTTZqMU52QldvbC9xMGZJREhxaVNOZU1lUFB1b0FIcVQrVGRFbzg1dGQ0U2YvN21zCnJlN1gwNHFadWRHQ1hhc0tDMnErZitsYmd2NmNCaDRxZDNsVHZNQ3JYclZuTkpTRElLY2xMYXE2MzV0d1Q2L1IKSFU5TDB3N2hFR1pQQXR1OXJMZnNZOFJPOXJGWnJZZzVPUzVSME40bHFsQlBucStmdFBUMEdaQlBhSysxWDJDaApDejRMVFR1S2ZWaldRUUlEQVFBQm9Fd3dTZ1lKS29aSWh2Y05BUWtPTVQwd096QXNCZ05WSFJFRUpUQWpnaUZ0CmVXUmxkbWxqWldsa0xuRnBiM1F0Y0hKdmFtVmpkQzVuYVhSb2RXSXVhVzh3Q3dZRFZSMFBCQVFEQWdXZ01BMEcKQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUF3VERRMUthM2VQanVWL2J3dDM5OVpWK2MrZS9xaTZWMXRpR3JPNVVkbApPZUlmOU1vNEwwM2lHVHB1aHA1UG1CcnY3cjgrM3NGVGxidXBMNFFqRVZXTHliSGRaZGFFK3RuNCtBL2pQQ1lPClZHdno4OHZoRnlPOHNJT0pranVNZjFKcVMyMGlOVG5hdWJjVVJHeEtXTkdGd3dYQ3hHYm5WaW5laVpjc1M2UUwKd2tCbnhLWVZ3QW90bVlZZDFWK1pWN3dFWmpoakRGaXpXTW1tU0lMM0RWelF2VnFIejBGQWIzemkwNVM1YkJhdgoyYkZ2WGRvTXVqVC9KZU1WWlErQ3A1TDRZeHJxTitIOFBMaHlXQWE3aSt6TGN2U2J1OHVHTkxuZGxKeUZKcytwCkdVWWpLaU10QjRiZlBNeXhoQ254bzZoZnNIMGVrTFBxVU5lZEtRb0JKeVBrCi0tLS0tRU5EIENFUlRJRklDQVRFIFJFUVVFU1QtLS0tLQo=&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This &lt;code&gt;CertificateRequest&lt;/code&gt; will make cert-manager attempt to request the &lt;code&gt;Issuer&lt;/code&gt; &lt;code&gt;qiot-ca-sample&lt;/code&gt;.
+The resource also exposes the option for stating the certificate as CA, Key Usages, and requested validity duration.
+Successful issuance of the certificate signing request will cause an update to the resource, setting the status with the signed certificate, the CA of the certificate (if available), and setting the Ready condition to True,  whether the issuance of the certificate signing request was successful or no.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;registration-service&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#registration-service&quot;&gt;&lt;/a&gt;Registration Service&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Registration Service is the entry point for each device that would like to send the data to our IoT platform.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The purpose is to register (of course) the device to the system with an identification number and provide the correct certificate to communicate with the MQTT Broker.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Registration API is protected by Mutual TLS, which means that every device comes with a predefined certificate at provisioning time. This integration allows us an extra security layer that only the recognized device can register to the platform.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;whats-next&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#whats-next&quot;&gt;&lt;/a&gt;What&amp;#8217;s Next&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The next part will look at Hashicorp Vault Integration, our choice for internal PKI Infrastructure.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;reference&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://cert-manager.io/&quot; class=&quot;bare&quot;&gt;https://cert-manager.io/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Mattia Mascia</name><email>mmascia@redhat.com</email></author><category term="blog" /><category term="security" /><category term="quarkus" /><category term="cert" /><category term="manager" /><category term="kubernetes" /><summary type="html">Intro</summary></entry><entry><title type="html">Quarkus native running on a Raspberry Pi</title><link href="/blog/quarkus-native-on-a-raspberry-pi/" rel="alternate" type="text/html" title="Quarkus native running on a Raspberry Pi" /><published>2021-03-17T00:00:00+00:00</published><updated>2021-03-17T00:00:00+00:00</updated><id>/blog/quarkus-native-on-a-raspberry-pi</id><content type="html" xml:base="/blog/quarkus-native-on-a-raspberry-pi/">&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;intro&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#intro&quot;&gt;&lt;/a&gt;Intro&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;When I&amp;#8217;ve been introduced to Quarkus, back in December 2018, I suddenly had the feeling the Quarkus runtime has the potential of covering ~95% of the software use-cases.
+My friend Sanne demoed Quarkus on his laptop when the runtime was still in an alpha state, far from being the large, extended and mature framework everybody knows nowadays. And still, I could experience a new way of think, implement and deploy java apps.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I’ve been recently working on a Hackfest for Red Hat EMEA partners to spread awareness about the potential and the performance of the Quarkus framework. My main technical goal was to demonstrate Quarkus can run everywhere and thanks to its performance capabilities coming from the native compilation process it definitely is the runtime of choice for IoT devices (a.k.a. Far Edge).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;To achieve the above goal, I’ve picked up a single-board computer with an integrated ARM-compatible central processing unit and made a Quarkus native app running into a container on top of a Linux based operating system. Here is how:&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;prerequisites&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#prerequisites&quot;&gt;&lt;/a&gt;Prerequisites&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Single-board computer:&lt;/strong&gt; The ARM-compatible CPU integrated into the single-board computer must support 64-bit mode.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Operating system:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;To make a Quarkus native container image run in a container, a 64-bit Linux OS is required;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The OS must support aarch64 CPUs, which leads us to the need for an aarch64-base distribution available for that OS;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nice to have: the target OS should fully support the target single-board computer.**&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Container technology:&lt;/strong&gt; surprise, surprise! an OCI standard container engine is compulsory to run containers on Linux :-)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Build tools:&lt;/strong&gt; as per the large amount of resources required by the GraalVM to compile Quarkus in native mode, an additional we need an ARM server / Virtual machine to achieve that goal. The server should meet the following minimum requirements:&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CPU: same ARM model as the one embedded in the target single-board computer&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cores: 4&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ram: 8Gb&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Disk space: 20Gb&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Container registry:&lt;/strong&gt; In order to be able to deploy onto the single-board computer the container image containing the Quarkus native app built in the ARM server, an account on a remote container registry is required.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;technology&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#technology&quot;&gt;&lt;/a&gt;Technology&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;single-sensor-board&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#single-sensor-board&quot;&gt;&lt;/a&gt;Single-sensor board&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Choosing the target single-board computer model has been quite an easy task: I already had a Raspberry Pi meeting the requirements above:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Model:&lt;/em&gt; Raspberry Pi 3 B+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;SOC:&lt;/em&gt; Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;CPU:&lt;/em&gt; 1.4GHz 64-bit quad-core ARM Cortex-A53 CPU&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;RAM:&lt;/em&gt; 1GB LPDDR2 SDRAM&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;WIFI:&lt;/em&gt; Dual-band 802.11ac wireless LAN (2.4GHz and 5GHz ) and Bluetooth 4.2&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Ethernet:&lt;/em&gt; Gigabit Ethernet over USB 2.0 (max 300 Mbps). Power-over-Ethernet support (with separate PoE HAT). Improved PXE network and USB mass-storage booting.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Thermal management:&lt;/em&gt; Yes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Video:&lt;/em&gt; Yes – VideoCore IV 3D. Full-size HDMI&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Audio:&lt;/em&gt; Yes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;USB 2.0:&lt;/em&gt; 4 ports&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;GPIO:&lt;/em&gt; 40-pin&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Power:&lt;/em&gt; 5V/2.5A DC power input&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Operating system support:&lt;/em&gt; Linux and Unix&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;os&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#os&quot;&gt;&lt;/a&gt;OS&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I’ve tried a few operating system meeting the requirements listed above. The two possible solutions were Fedora Internet of Things Edition and Gentoo.
+After some tests, I’ve picked up &lt;a href=&quot;https://iot.fedoraproject.org/&quot;&gt;Fedora IoT&lt;/a&gt; for the following reasons:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Full, native support to 64-bit architecture (aarch64)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stability&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Usability&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Maturity&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lifecycle&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Full support on RPi 3 B+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;container-technology&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#container-technology&quot;&gt;&lt;/a&gt;Container technology&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This one has been an easy task as well: &lt;a href=&quot;https://podman.io/&quot;&gt;Podman&lt;/a&gt;. Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. Moreover, there’s no need for installing additional components/layers to Fedora IoT basic installation as the Podman container engine is already available in the OS distribution.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Moreover, from a deeper technical perspective, due to the fact cgroups on fedora is now v2 using Docker would force you to appy several tweeks and to downgrade the cgroups versio to v1 in order to avoid getting warning and eventually failures.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The reason why Podman is the contained of choice is very well explained in the following &lt;a href=&quot;https://podman.io/blogs/2019/10/29/podman-crun-f31.html&quot;&gt;article&lt;/a&gt;.
+I&amp;#8217;m quoting the quick explanation:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;quoteblock&quot;&gt;
+&lt;blockquote&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The crun command is the runtime the allows for cgroup V2 support and is supplied starting with Fedora 31. Other container systems use the runc runtime. However, runc only supports cgroup V1. The cgroup kernel feature allows you to allocate resources such as CPU time, network bandwidth and system memory to a container. Version 1 of cgroup only supports containers that are run by root, while version 2 supports containers that are run by root or a non-privileged user.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;attribution&quot;&gt;
+&amp;#8212; Rūmī
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The output from the command &quot;podman info&quot; on the RPi related to the OCI runtime is the following:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;...
+ociRuntime:
+    name: crun
+    package: crun-0.14.1-4.fc32.aarch64
+    path: /usr/bin/crun
+    version: |-
+      crun version 0.14.1
+      commit: 598ea5e192ca12d4f6378217d3ab1415efeddefa
+      spec: 1.0.0
+      +SYSTEMD +SELINUX +APPARMOR +CAP +SECCOMP +EBPF +YAJL
+...&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Meaning the Podman version already included in Fedora IoT 31 and later fully supports cgroup v2 thanks to the fact it uses &quot;crun&quot; runtime rather than the classic &quot;runc&quot; runtime, embedded in the other linux distributions and in the fedora releases before v31.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;build-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#build-tools&quot;&gt;&lt;/a&gt;Build tools&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;There are multiple ways of provisioning an aarch64 server shipped with enough resources to build quarkus in native mode nowadays:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Spend a reasonable, but not small, budget to purchase a physical ARM server (don’t do this at home);&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spend a very small budget to provision an ARM VM on the public cloud (fastest, recommended if you are not running a Linux os on your host);&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Provision a VM on your host machine using QEmu (cheapest);&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Run QEmu within a container, emulating the quarkus container images (still under investigation and tests)&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;As I’m running Fedora Workstation on my desktop, I’ve picked up the 3rd option.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;container-registry&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#container-registry&quot;&gt;&lt;/a&gt;Container registry&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The remote container registry of choice is &lt;a href=&quot;https://quay.io/&quot;&gt;Quay.io&lt;/a&gt;. More details about setting up the account created on quay.io will be shared in a dedicated section of this article.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;implementation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#implementation&quot;&gt;&lt;/a&gt;Implementation&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This section will guide you through the following&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Setting up the VM&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Setting up the RPi and Fedora IoT&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Connecting the container engine to the quay.io account&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compiling and deploying your Quarkus native app on Podman&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Outcome&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;1-setting-up-the-vm&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#1-setting-up-the-vm&quot;&gt;&lt;/a&gt;1. Setting up the VM&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This goal can be achieved using VM technology based on QEmu.
+QEmu plays an important role in this task, cause that’s the best upstream tool to use to make a virtual machine emulating the target cpu architecture.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;setup-a-virtual-machine-using-qemu&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#setup-a-virtual-machine-using-qemu&quot;&gt;&lt;/a&gt;Setup a Virtual machine using QEmu&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;On a linux distro, the use of VMM (Virtual Machine Manager is highly recommended):&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-sh hljs&quot; data-lang=&quot;sh&quot;&gt;$ sudo dnf groupinstall virtualization
+$ sudo dnf install qemu-system-aarch64&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The minimum requirements for the virtual machine are the following:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CPU: 4 cores &lt;strong&gt;Cortex-A53&lt;/strong&gt; (ARMv8) 64-bit&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;RAM: 8 GB&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Disk: 10Gb&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Networking: bridge&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OS: Fedora Minimal (latest stable) - aarch64 (&lt;a href=&quot;https://download.fedoraproject.org/pub/fedora-secondary/releases/32/Spins/aarch64/images/Fedora-Minimal-32-1.6.aarch64.raw.xz&quot;&gt;link&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Runtime: GraalVM (latest) - aarch64  (&lt;a href=&quot;https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.2.0/graalvm-ce-java11-linux-aarch64-20.2.0.tar.gz&quot;&gt;link&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;image&quot;&gt;&lt;img src=&quot;/assets/images/posts/quarkus-native-on-a-raspberry-pi/vm-cpu-config.png&quot; alt=&quot;vm cpu config&quot; width=&quot;100%&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;As a side note, please consider increasing the disk sizing of the VM in case you want to reuse it for additional builds and tests.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;setup-the-graalvm-environment&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#setup-the-graalvm-environment&quot;&gt;&lt;/a&gt;Setup the GraalVM environment&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;On your VM, you will need GCC, and the glibc and zlib headers. Examples for common distributions:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-sh hljs&quot; data-lang=&quot;sh&quot;&gt;$ sudo dnf install gcc glibc-devel zlib-devel libstdc++-static&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Install OpenJdk:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-sh hljs&quot; data-lang=&quot;sh&quot;&gt;$ sudo dnf install -y java-11-openjdk&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Download  the latest version of graalvm for your architecture (aarch64) from &lt;a href=&quot;https://github.com/graalvm/graalvm-ce-builds/releases&quot;&gt;here&lt;/a&gt; and unpack it.
+Detailed instructions &lt;a href=&quot;https://www.graalvm.org/docs/getting-started-with-graalvm/linux/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Move the graalvm content into /usr/lib/graalvm and set the environment variables adding the following code snippet into /etc/profile:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;#JAVA_HOME
+JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.6.10-0.fc32.aarch64
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
+#GRAALVM_HOME
+GRAALVM_HOME=/usr/lib/graalvm/graalvm-ce-java11-19.3.1
+PATH=$PATH:$HOME/bin:$GRAALVM_HOME/bin
+export GRAALVM_HOME
+export PATH
+
+(Optional) Set the JAVA_HOME environment variable to the GraalVM installation directory.
+export JAVA_HOME=${GRAALVM_HOME}
+(Optional) Add the GraalVM bin directory to the path
+export PATH=${GRAALVM_HOME}/bin:$PATH&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;...
+
+#JAVA_HOME
+JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.8.10-0.fc32.x86_64
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
+#GRAALVM_HOME
+GRAALVM_HOME=/usr/lib/graalvm/graalvm-ce-java11-20.2.0
+PATH=$PATH:$HOME/bin:$GRAALVM_HOME/bin
+export GRAALVM_HOME
+export PATH
+export JAVA_HOME=${GRAALVM_HOME}
+export PATH=${GRAALVM_HOME}/bin:$PATH&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;2-setting-up-the-rpi-and-fedora-iot&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#2-setting-up-the-rpi-and-fedora-iot&quot;&gt;&lt;/a&gt;2. Setting up the RPi and Fedora IoT&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;download-the-latest-fedora-iot-distro&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#download-the-latest-fedora-iot-distro&quot;&gt;&lt;/a&gt;Download the latest Fedora IoT distro&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Download the stable and fully supported version of Fedora IoT for Raspberry Pi from &lt;a href=&quot;https://dl.fedoraproject.org/pub/alt/iot/&quot;&gt;here&lt;/a&gt;. Pick up the raw image for aarch64.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;flash-the-operating-system-on-the-sd-card&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#flash-the-operating-system-on-the-sd-card&quot;&gt;&lt;/a&gt;Flash the operating system on the SD card&lt;/h3&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;non-linux-os&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#non-linux-os&quot;&gt;&lt;/a&gt;Non-Linux OS&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;If you are not running any linux based OS on hour host, in order to easily, safely and quickly install the OS image on the MicroSD card I highly recommended to download the official Raspberry Imager tool from &lt;a href=&quot;https://www.raspberrypi.org/downloads/&quot;&gt;here&lt;/a&gt;.
+The Raspberry Pi Imager how-to can be found &lt;a href=&quot;https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/&quot;&gt;here&lt;/a&gt;.
+The good news is that we have already gone through the creation of the ARM-based virtual machine, so you already have a linux distro to use to flash the Fedora IoT OS on the SD card!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;on-a-linux-distro&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#on-a-linux-distro&quot;&gt;&lt;/a&gt;On a Linux distro&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Fedora OS linux distro provides a tool that dramatically simplifies the task: fedora-arm-installer.
+Let&amp;#8217;s add the tool to the OS:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ dnf install -y fedora-arm-installer&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;An example of how to setup the DS card if you are running fedora:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ sudo fedora-arm-image-installer -y --image=/home/&amp;lt;&amp;lt;user_home&amp;gt;&amp;gt;/Fedora-IoT-32-20200429.0.aarch64.raw.xz --target=rpi3 --media=/dev/sde --resizefs --addkey=/home/&amp;lt;&amp;lt;user_home&amp;gt;&amp;gt;/.ssh/id_rsa.pub --norootpass --addconsole&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;please refer to the official tool guide to get additional insights about it.
+The tool is described &lt;a href=&quot;https://docs.fedoraproject.org/en-US/iot/physical-device-setup/#_scripted_image_transfer_with_arm_image_installer&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;As a side note, the resulting SD card will contain 3 partitions:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;BIOS&lt;/em&gt; (U-Boot) - 1.1 Gb&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Boot&lt;/em&gt; - 525 Mb&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Root&lt;/em&gt; - Occupies the remaining unallocated space in the SD card&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;image&quot;&gt;&lt;img src=&quot;/assets/images/posts/quarkus-native-on-a-raspberry-pi/sd-card-partitions.png&quot; alt=&quot;sd card partitions&quot; width=&quot;100%&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;enabling-64bit-on-rpi-cpu&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#enabling-64bit-on-rpi-cpu&quot;&gt;&lt;/a&gt;Enabling 64bit on RPi cpu&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;After the flashing operation has completed successfully, it&amp;#8217;s important to have a look at the config file of the operating system. edit the file &lt;em&gt;config.txt&lt;/em&gt; and make sure the section &lt;strong&gt;[all]&lt;/strong&gt; starts with the following key-value pairs:
+arm_control=0x200, arm_64bit=1&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;e.g.:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;...
+
+# Default Fedora configs for all Raspberry Pi Revisions
+[all]
+# Put the RPi into 64 bit mode
+arm_control=0x200
+arm_64bit=1
+
+...&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;after-first-boot&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#after-first-boot&quot;&gt;&lt;/a&gt;After first boot&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The following steps may not be necessary if you are happy with the fault keyboard layout or if you are connecting your RPi to the network with aLAN cable&amp;#8230;&amp;#8203;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;keyboard-layout&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#keyboard-layout&quot;&gt;&lt;/a&gt;Keyboard Layout&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Find your keymap of choice in the list obtained by issuing the following command:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ localectl list-keymaps | grep your-locale&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;And set it into the system config:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ localectl set-keymap _map_&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;enable-internet-access-through-wifi-connection&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#enable-internet-access-through-wifi-connection&quot;&gt;&lt;/a&gt;Enable internet access through WiFi connection&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Get the list of available networks&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ nmcli device wifi list&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;And connect to the Wi-Fi network of choice&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ nmcli device wifi connect SSID password PASSWORD&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;disable-firewall&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#disable-firewall&quot;&gt;&lt;/a&gt;Disable firewall&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Only because it is a demo!!! :-)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ systemctl disable firewalld
+$ systemctl stop firewalld&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;create-a-new-user-for-the-device&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#create-a-new-user-for-the-device&quot;&gt;&lt;/a&gt;Create a new user for the device&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Thanks to the fedora-arm-installer tool, we&amp;#8217;ve added out public key to the root user.
+Using root user on a linux system is never a good idea or, let’s say, a good practice.
+For this reason, we’re going to add a new administrative user with wheel privileges to our OS:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ useradd edge
+$ passwd edge
+$ usermod edge -a -G wheel&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;3-connecting-the-container-engine-to-the-quay-io-account&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#3-connecting-the-container-engine-to-the-quay-io-account&quot;&gt;&lt;/a&gt;3. Connecting the container engine to the quay.io account&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;If you haven’t got it yet, create a free account on quay.io.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;sign-into-quay-io&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#sign-into-quay-io&quot;&gt;&lt;/a&gt;Sign into Quay.io&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;To sign into Quay.io, execute the podman login quay.io command:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Note: If you go to your Quay account settings you can create an encrypted password for more security.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ podman login quay.io
+Username: myusername
+Password: mypassword&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;4-compiling-and-deploying-your-quarkus-native-app-on-podman&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#4-compiling-and-deploying-your-quarkus-native-app-on-podman&quot;&gt;&lt;/a&gt;4. Compiling and deploying your Quarkus native app on Podman&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Back on the VM side.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;building-the-executable&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#building-the-executable&quot;&gt;&lt;/a&gt;Building the executable&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;You’ll need git to download the source code and execute it:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ sudo dnf install -y git&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Clone the quarkus quickstarts repository and pick up the quarkus quickstart of choice.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ git clone https://github.com/quarkusio/quarkus-quickstarts.git ~/git/quarkus-quickstarts&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Enter the root directory of the quickstart of choice (e.g. &lt;em&gt;getting-started&lt;/em&gt;) and start the build:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ ./mvnw package -Pnative&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The whole Maven process takes roughly 40 mins. Blease be aware that this could take longer in case of a sarvice with more features (i.e. importing and using more modules):&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;[edge@localhost getting-started]$ ./mvnw package -Pnative
+...
+[INFO] --- quarkus-maven-plugin:1.8.1.Final:native-image (default) @ getting-started ---
+[INFO] [org.jboss.threads] JBoss Threads version 3.1.1.Final
+[INFO] [io.quarkus.deployment.pkg.steps.JarResultBuildStep] Building native image source jar: /home/edge/quarkus-quickstarts/getting-started/target/getting-started-1.0-SNAPSHOT-native-image-source-jar/getting-started-1.0-SNAPSHOT-runner.jar
+[INFO] [io.quarkus.deployment.pkg.steps.NativeImageBuildStep] Building native image from /home/edge/quarkus-quickstarts/getting-started/target/getting-started-1.0-SNAPSHOT-native-image-source-jar/getting-started-1.0-SNAPSHOT-runner.jar
+[INFO] [io.quarkus.deployment.pkg.steps.NativeImageBuildStep] Running Quarkus native-image plugin on GraalVM Version 20.2.0 (Java Version 11.0.8)
+[INFO] [io.quarkus.deployment.pkg.steps.NativeImageBuildStep] /usr/lib/graalvm/graalvm-ce-java11-20.2.0/bin/native-image -J-Dsun.nio.ch.maxUpdateArraySize=100 -J-Djava.util.logging.manager=org.jboss.logmanager.LogManager -J-Dvertx.logger-delegate-factory-class-name=io.quarkus.vertx.core.runtime.VertxLogDelegateFactory -J-Dvertx.disableDnsResolver=true -J-Dio.netty.leakDetection.level=DISABLED -J-Dio.netty.allocator.maxOrder=1 -J-Duser.language=en -J-Dfile.encoding=UTF-8 --initialize-at-build-time= -H:InitialCollectionPolicy=com.oracle.svm.core.genscavenge.CollectionPolicy\$BySpaceAndTime -H:+JNI -jar getting-started-1.0-SNAPSHOT-runner.jar -H:FallbackThreshold=0 -H:+ReportExceptionStackTraces -H:-AddAllCharsets -H:EnableURLProtocols=http -H:NativeLinkerOption=-no-pie --no-server -H:-UseServiceLoaderFeature -H:+StackTrace getting-started-1.0-SNAPSHOT-runner
+[getting-started-1.0-SNAPSHOT-runner:2012]    classlist:  82,587.50 ms,  0.96 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]        (cap):  25,485.45 ms,  0.96 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]        setup:  62,730.91 ms,  0.94 GB
+15:15:03,073 INFO  [org.jbo.threads] JBoss Threads version 3.1.1.Final
+[getting-started-1.0-SNAPSHOT-runner:2012]     (clinit):   9,087.82 ms,  2.24 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]   (typeflow): 392,638.79 ms,  2.24 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]    (objects): 300,849.30 ms,  2.24 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]   (features):   9,611.94 ms,  2.24 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]     analysis: 729,428.50 ms,  2.24 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]     universe:  37,544.86 ms,  2.24 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]      (parse): 135,120.27 ms,  2.24 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]     (inline): 314,244.72 ms,  3.25 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]    (compile): 817,352.63 ms,  4.08 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]      compile: 1,304,395.09 ms,  4.08 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]        image: 102,001.77 ms,  4.10 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]        write:  16,216.90 ms,  4.10 GB
+[getting-started-1.0-SNAPSHOT-runner:2012]      [total]: 2,342,173.85 ms,  4.10 GB
+[INFO] [io.quarkus.deployment.pkg.steps.NativeImageBuildStep] Execute [objcopy, --strip-debug, /home/edge/quarkus-quickstarts/getting-started/target/getting-started-1.0-SNAPSHOT-runner]
+[INFO] [io.quarkus.deployment.QuarkusAugmentor] Quarkus augmentation completed in 2394526ms
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  45:25 min
+[INFO] Finished at: 2020-09-30T15:46:11+02:00
+[INFO] ------------------------------------------------------------------------&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The native quarkus executable must be packaged into a container image in order to be able to run it on a container runtime. To achieve this goal, let’s ask the container runtime already installed into your VM to build the container image:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ sudo podman build -f src/main/docker/Dockerfile.native -t quay.io/$myusername/quarkus-getting-started:1-aarch64 .&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Push the container image to the container registry of choice to share it with the edge device:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ sudo podman push quay.io/$myusername/quarkus-getting-started:1-aarch64&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;deploying-the-executable&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#deploying-the-executable&quot;&gt;&lt;/a&gt;Deploying the executable&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;On the RPi:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;$ sudo podman run -it --rm -p 8090:8080 --name quarkus-getting-started quay.io/$myusername/quarkus-getting-started:1-aarch64&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;outcome&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#outcome&quot;&gt;&lt;/a&gt;Outcome&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This paragraph shows the outcome produced by the above steps:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;startupstop-time&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#startupstop-time&quot;&gt;&lt;/a&gt;Startup/Stop time:&lt;/h4&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-none hljs&quot;&gt;[edge@localhost ~]$ sudo podman run -it --rm -p 8090:8080 --name quarkus-getting-started quay.io/abattagl/quarkus-getting-started:1-aarch64
+Trying to pull quay.io/abattagl/quarkus-getting-started:1-aarch64...
+Getting image source signatures
+Copying blob d44f88e7704f done
+Copying blob 8c4861605060 done
+Copying blob c5a0fdbc0d7a done
+Copying blob 5dd9a2ffef88 done
+Copying config f08559ac50 done
+Writing manifest to image destination
+Storing signatures
+__  ____  __  _____   ___  __ ____  ______
+ --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
+ -/ /_/ / /_/ / __ |/ , _/ ,&amp;lt; / /_/ /\ \
+--\___\_\____/_/ |_/_/|_/_/|_|\____/___/
+2020-10-01 08:49:34,566 INFO  [io.quarkus] (main) getting-started 1.0-SNAPSHOT native (powered by Quarkus 1.8.1.Final) started in 0.055s. Listening on: http://0.0.0.0:8080
+2020-10-01 08:49:34,566 INFO  [io.quarkus] (main) Profile prod activated.
+2020-10-01 08:49:34,566 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy]
+^C
+2020-10-01 08:49:49,061 INFO  [io.quarkus] (Shutdown thread) getting-started stopped in 0.007s&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The application starts in 55 ms and stops in 7 ms. This is impressive if you consider the Quarkus native app is running on the RPi3 cpu (Please have another look at the cpu specs at the very beginning of this article)!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;memory-footprint&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#memory-footprint&quot;&gt;&lt;/a&gt;Memory footprint:&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The following screenshot of the output of the &quot;top&quot; command on the RPi shows how cheap it is to run Quarkus native apps on top of the container technology:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/quarkus-native-on-a-raspberry-pi/native-quarkus-getting-started-on-arm8-memory-footprint.png&quot; alt=&quot;native quarkus getting started on arm8 memory footprint&quot; width=&quot;100%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Roughly 22 megs for a java-based application exposing a simple web page and a REST API!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;connecting-to-the-service&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#connecting-to-the-service&quot;&gt;&lt;/a&gt;Connecting to the service&lt;/h4&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The following screenshot shows the webpage served by the quarkus microservice running natively on podman installed in the RPi:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/quarkus-native-on-a-raspberry-pi/native-quarkus-getting-started-on-arm8-web-page.png&quot; alt=&quot;native quarkus getting started on arm8 web page&quot; width=&quot;100%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;conclusions&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#conclusions&quot;&gt;&lt;/a&gt;Conclusions&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;big-picture&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#big-picture&quot;&gt;&lt;/a&gt;Big Picture&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This article reproduces the steps to compile and run a Quarkus native app on a Raspberry Pi cpu. This process is potentially valid for all the cpus belonging to the ARM v8 family, with some potential exceptions due to the fact the architecture of few ARM based cpus may differ from the standard one for that version.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;building-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#building-tools&quot;&gt;&lt;/a&gt;Building tools&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;For this PoC I&amp;#8217;ve used a QEmu-base VM. That promotes reusability, but it&amp;#8217;s still expensive in terms of usability (QEmu works like a charm on linux OS, but not on Windows and MacOS). As stated at the beginning of this article, a more flexible, portable and scalable solution still based on cpu emulation and container technology is under investiogation at the moment. That would help the delegation and scalability of build process.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Be aware that QEmu-based tools are still a workaround. GraalVM is missing the cross-compile feature and it will take a while to release it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;quarkus-everywhere&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#quarkus-everywhere&quot;&gt;&lt;/a&gt;Quarkus everywhere&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It&amp;#8217;s clear that Quarkus can potentially run everywhere. It is, of course, a matter of supportability from GraalVM to the underlying architecture.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;So far I feel comfortable in stating that this is just the beginning and lots more features and capabilities are yet to come.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It would very nice to have a distribution of Mandrel for aarch64. Mandrel is aligned with the &lt;code&gt;native-image&lt;/code&gt; capabilities from GraalVM with OpenJDK and Red Hat Enterprise Linux libraries to improve maintainability. Looking forward to testing it ;-)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Andrea Battaglia</name><email>abattagl@redhat.com</email></author><category term="blog" /><category term="armv8" /><category term="arm" /><category term="raspberrypi" /><category term="quarkus" /><category term="native" /><summary type="html">Intro</summary></entry><entry><title type="html">QIoT Hackfest @ Openshift tv - updates</title><link href="/blog/qiot-hackfest-at-openshift-tv-updates/" rel="alternate" type="text/html" title="QIoT Hackfest @ Openshift tv - updates" /><published>2021-01-31T00:00:00+00:00</published><updated>2021-01-31T00:00:00+00:00</updated><id>/blog/qiot-hackfest-at-openshift-tv-updates</id><content type="html" xml:base="/blog/qiot-hackfest-at-openshift-tv-updates/">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Our friends from the &lt;a href=&quot;https://www.openshift.com/streaming/twitch&quot;&gt;&lt;strong&gt;openshift tv&lt;/strong&gt;&lt;/a&gt; are always keen to know the latest and greatest on all this that gravitates around the &lt;a href=&quot;https://www.openshift.com/&quot;&gt;&lt;strong&gt;Openshift Container Platform&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Red Hat QIoT Hackfest event generated this amazing community attracting SMEs and a bunch of new technial and business opportunities.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Watch the episode linked below to get an overview of the business strategy around the QIoT Hackfest!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;videoblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/5l9kHb3qaxY?rel=0&amp;amp;start=373&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Andrea Battaglia</name><email>abattagl@redhat.com</email></author><category term="blog" /><category term="qiot" /><category term="media" /><category term="openshifttv" /><summary type="html">Our friends from the openshift tv are always keen to know the latest and greatest on all this that gravitates around the Openshift Container Platform.</summary></entry><entry><title type="html">PoC covid19</title><link href="/blog/usecase-covid-19/" rel="alternate" type="text/html" title="PoC covid19" /><published>2020-12-01T00:00:00+00:00</published><updated>2020-12-01T00:00:00+00:00</updated><id>/blog/usecase-covid-19</id><content type="html" xml:base="/blog/usecase-covid-19/">&lt;div id=&quot;toc&quot; class=&quot;toc&quot;&gt;
+&lt;div id=&quot;toctitle&quot;&gt;Table of Contents&lt;/div&gt;
+&lt;ul class=&quot;sectlevel0&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Intro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#far-edge&quot;&gt;Far Edge&lt;/a&gt;
+&lt;ul class=&quot;sectlevel1&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#hardware&quot;&gt;Hardware&lt;/a&gt;
+&lt;ul class=&quot;sectlevel2&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#single-board-computer&quot;&gt;Single-board computer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#sensor-board&quot;&gt;Sensor board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#particulate-matter-sensor&quot;&gt;Particulate Matter Sensor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#software&quot;&gt;Software&lt;/a&gt;
+&lt;ul class=&quot;sectlevel2&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#operating-system&quot;&gt;Operating System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#sensor-service&quot;&gt;Sensor Service&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#edge-service&quot;&gt;Edge Service&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#datacenter&quot;&gt;Datacenter&lt;/a&gt;
+&lt;ul class=&quot;sectlevel1&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#main-diagram&quot;&gt;Main Diagram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#platform-architecture&quot;&gt;Platform architecture&lt;/a&gt;
+&lt;ul class=&quot;sectlevel2&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#red-hat-openshift-container-platform&quot;&gt;Red Hat Openshift Container Platform&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#software-infrastructure-components&quot;&gt;Software infrastructure components&lt;/a&gt;
+&lt;ul class=&quot;sectlevel2&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#a-mq&quot;&gt;A-MQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#a-mq-streams&quot;&gt;A-MQ Streams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#influx-db&quot;&gt;Influx DB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#postgresql&quot;&gt;PostgreSQL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#cert-manager&quot;&gt;Cert-manager&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#business-logic-architecture&quot;&gt;Business logic architecture&lt;/a&gt;
+&lt;ul class=&quot;sectlevel2&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#registration-service&quot;&gt;Registration Service&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#station-service&quot;&gt;Station Service&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#localization-service&quot;&gt;Localization Service&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#pollutiongas-collector&quot;&gt;Pollution/Gas Collector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#pollutiongas-storer&quot;&gt;Pollution/Gas Storer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#importer-service&quot;&gt;Importer Service&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#real-time-dashboard&quot;&gt;Real-time Dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#dashboard&quot;&gt;Dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#functional-overview&quot;&gt;Functional Overview&lt;/a&gt;
+&lt;ul class=&quot;sectlevel2&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#registration-phase&quot;&gt;Registration phase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#telemetry-production&quot;&gt;Telemetry production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#telemetry-validation-and-enrichment&quot;&gt;Telemetry validation and enrichment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#scalability-of-the-data-flow&quot;&gt;Scalability of the data-flow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#data-view&quot;&gt;Data view&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#specs&quot;&gt;Specs&lt;/a&gt;
+&lt;ul class=&quot;sectlevel2&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#registration-service-2&quot;&gt;Registration Service&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#pollution&quot;&gt;Pollution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#gas&quot;&gt;Gas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#historical-data&quot;&gt;Historical data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#how-to-reproduce&quot;&gt;How to reproduce&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Think of how damaged and polluted it was the environment at the moment COVID-19 started spreading…
+After a few weeks, the spread of the virus became global, with the hard effect of shutting down the whole human activity all over the world.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Although the shutdown has been dramatic and brought several difficulties to human beings and to the economy, the environment has benefited from the stop to the industrial activities at the global level.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;intro&quot; class=&quot;sect0&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#intro&quot;&gt;&lt;/a&gt;Intro&lt;/h1&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The main goal is to build an environmental network of sensors to measure the quality of the air during the reopening phase after the peak of the Pandemic.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The &quot;Measurement Stations&quot; collect data about several elements in the atmosphere and send the telemetry to the datacenter for elaboration.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;At the moment, only &lt;strong&gt;GAS&lt;/strong&gt; and &lt;strong&gt;PARTICULATES&lt;/strong&gt; telemetries are implemented.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The community is keen to receive support and contribution around the implementation of additional telemetries:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Light&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Temperature&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Humidity&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;#8230;&amp;#8203;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The datacenter stores two types of data:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Runtime&lt;/strong&gt; - Data collected by the stations&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Historical&lt;/strong&gt; - aggregated data coming from third party data source&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;and gives an overview of the following:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Runtime analysis&lt;/strong&gt; - A real-time dashboard shows real-time data coming in the datacenter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Localized comparison&lt;/strong&gt; - The most relevant considerations come from the comparison between the current data collected by the stations and the third party information collected 6 and 12 months before. This specific comparison refers to a specific day in the time-frame&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/data-comparison-timeline.png&quot; alt=&quot;data comparison timeline&quot; width=&quot;100%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;far-edge&quot; class=&quot;sect0&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#far-edge&quot;&gt;&lt;/a&gt;Far Edge&lt;/h1&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Far Edge edge device represents the implementation of a measurement station.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;To get an advice about installing the measurement station outside of the building in order to collect PMS telemetry, please refer to the following article: &lt;a href=&quot;https://learn.pimoroni.com/tutorial/sandyj/enviro-plus-and-luftdaten-air-quality-station&quot;&gt;An outdoor air quality station with Enviro+&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;hardware&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#hardware&quot;&gt;&lt;/a&gt;Hardware&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The edge device hardware is made up of two integrated sets of components.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A single-board computer to deploy the business logic&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A sensor board&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A PMS&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The components are, of course, designed and structured to work smoothly together, so there is no need to bother with the physical checks and testing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/hardware.jpg&quot; alt=&quot;hardware&quot; width=&quot;100%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;A deeper look into the hardware specs:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;single-board-computer&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#single-board-computer&quot;&gt;&lt;/a&gt;Single-board computer&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Hardware of choice for the edge is raspberry pi 3 model B+.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Pi 3 Model B+ has a 1.4GHz 64-bit quad-core Broadcom Arm Cortex A53-architecture processor.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Choosing the target single-board computer model has been quite an easy task: I already had a Raspberry Pi meeting the requirements above:&lt;/p&gt;
+&lt;/div&gt;
+&lt;table class=&quot;tableblock frame-all grid-all stretch&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 50%;&quot;&gt;
+&lt;col style=&quot;width: 50%;&quot;&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Model&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Raspberry Pi 3 B+&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;SOC&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;CPU&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;1.4GHz 64-bit quad-core ARM Cortex-A53 CPU&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;RAM&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;1GB LPDDR2 SDRAM&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;WIFI&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Dual-band 802.11ac wireless LAN (2.4GHz and 5GHz ) and Bluetooth 4.2&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Ethernet&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Gigabit Ethernet over USB 2.0 (max 300 Mbps). Power-over-Ethernet support (with separate PoE HAT). Improved PXE network and USB ass-storage booting.&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Thermal management&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Yes&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Video&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Yes – VideoCore IV 3D. Full-size HDMI&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Audio&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Yes&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;USB 2.0&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;4 ports&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;GPIO&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;40-pin&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Power&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;5V/2.5A DC power input&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Operating system support&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Linux and Unix&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;sensor-board&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#sensor-board&quot;&gt;&lt;/a&gt;Sensor board&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Enviro + Air Quality features&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;for this purpose, we used&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;BME280&lt;/em&gt;: temperature, pressure, humidity sensor (datasheet)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;LTR-559&lt;/em&gt;: light and proximity sensor (datasheet)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;MICS6814&lt;/em&gt;: analog gas sensor (datasheet)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;ADS1015&lt;/em&gt;: analog to digital converter (ADC) (datasheet)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;MEMS&lt;/em&gt;: microphone (datasheet)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;particulate-matter-sensor&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#particulate-matter-sensor&quot;&gt;&lt;/a&gt;Particulate Matter Sensor&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;For this use-case we picked up a PMS5003&lt;/p&gt;
+&lt;/div&gt;
+&lt;table class=&quot;tableblock frame-all grid-all stretch&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 33.3333%;&quot;&gt;
+&lt;col style=&quot;width: 33.3333%;&quot;&gt;
+&lt;col style=&quot;width: 33.3334%;&quot;&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Parameter&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Index&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;unit&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Range of measurement&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;0.3~1.0； 1.0~2.5； 2.5~10&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Micrometer（μ m）&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Counting Efficiency&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;50%@0.3μ m 98%@&amp;gt;=0.5&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;μ m&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Effective Range（PM2.5 standard）&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;0~500&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;μ g/m³&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Maximum Range（PM2.5standard）*&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;≥1000&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;μ g/m³&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Resolution&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;μ g/m³&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Maximum Consistency Error (PM2.5 standard data)*&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;±10%@100~500μ g/m³
+±10μ g/m³@0~100μ g/m³&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Standard Volume&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;0.1&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Litre（L）&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Single Response Time&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;≤10&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Second（s）&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Total Response Time&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;≤10&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Second（s）&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;DC Power Supply&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Typ:5.0 Min:4.5 Max: 5.5&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Milliampere（mA）&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Active Current&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;≤100&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Milliampere（mA）&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Standby Current&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;≤200&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Microampere（μ A）&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Interface Level&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&amp;lt;0.8 @3.3 H &amp;gt;2.7@3.3&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Volt（V）&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Working Temperature Range&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;-10~+60&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;℃&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Working Humidity Range&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;0~99%&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Storage Temperature&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;-40~+80&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;℃&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;software&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#software&quot;&gt;&lt;/a&gt;Software&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The software running on the edge device has a dual purpose:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Integrate with the sensors board and the PMS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Interact with the data hub to share collected data&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The business logic of the measurement station has been entirely implemented using cloud-native frameworks and packaged using container technologies.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/edge-device-architecture.png&quot; alt=&quot;edge device architecture&quot; width=&quot;100%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;operating-system&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#operating-system&quot;&gt;&lt;/a&gt;Operating System&lt;/h3&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/logo-fedora-iot.png&quot; alt=&quot;logo fedora iot&quot; width=&quot;20%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The operating system matters as well as the services running on it. For the purpose of this implementation, the OS of choice must fulfill the following requirements:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Must be fully-fledged 64 bit OS (not just its kernel)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Must have a very small memory footprint&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Must be immutable or at least, modular&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Must have the ability to run a container engine with the minimum memory footprint, like Podman or CRI-O&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Must support all of the following hardware component used by the sensor board:&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I2C&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SMB&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;uart&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;At the moment, the only stable operating system which has all of the characteristics described above is &lt;a href=&quot;https://getfedora.org/iot/&quot;&gt;Fedora IoT&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://download.fedoraproject.org/pub/alt/iot/33/IoT/aarch64/iso/Fedora-IoT-IoT-ostree-aarch64-33-20210315.0.iso&quot;&gt;&lt;strong&gt;Fedora IoT 33&lt;/strong&gt;&lt;/a&gt; must be used in order to have a stable environment as a base for software development for the edge device.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;sensor-service&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#sensor-service&quot;&gt;&lt;/a&gt;Sensor Service&lt;/h3&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/logo-python.png&quot; alt=&quot;logo python&quot; width=&quot;10%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This service exposes apis to connect to sensors and grab raw telemetry and for the Hackfest purposes it must be implemented as containerized service.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The technology vendor has put together a &lt;a href=&quot;https://github.com/pimoroni/enviroplus-python&quot;&gt;Python library&lt;/a&gt; to control all the parts of your Enviro and Enviro + Air Quality. To implement the sensor service business logic &lt;span class=&quot;underline&quot;&gt;Python 3.9+ is highly recommended&lt;/span&gt;. That specific version is already  available into the operating system of choice.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Lots of examples for each of the individual parts, all-in-one examples that show you the data from the sensors in a visual way are available as well at this &lt;a href=&quot;https://github.com/pimoroni/enviroplus-python/tree/master/examples&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Last, but not least, have a read through the official &lt;a href=&quot;https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-enviro-plus&quot;&gt;Getting Started with Enviro+ tutorial&lt;/a&gt; that walks you through how to install the software, how to run the code examples, and how to use the Python library.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The easiest and cheapest way of accessing the sensor service is through unsecured rest API. The Flask project is an excellent and lightweight tool to integrate python rest API with container technology.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;No need to secure sensor service API, cause this service is designed to be an internal service with no exposure to the network.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;edge-service&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#edge-service&quot;&gt;&lt;/a&gt;Edge Service&lt;/h3&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/logo-quarkus.png&quot; alt=&quot;logo quarkus&quot; width=&quot;10%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Edge service is responsible for the Data Hub the telemetry collected from the sensors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The main goal of the QIoT Community is to implement this service using Quarkus and to run it natively into a container (possible on 64bit OS only!).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Moreover, the Edge Service, as well as the Sensors Service, should have the smallest memory footprint as possible and perform the transactions with the API exposed by the Data Hub in the shortest time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In this scenario, we have the freedom of picking up the programming language of choice.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;So, thinking of the availability in the IT industry, the best choice at the moment is the Quarkus framework.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Edge service is expected to send one message every 5 seconds.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More details about the data flow will be provided in the next chapters.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;datacenter&quot; class=&quot;sect0&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#datacenter&quot;&gt;&lt;/a&gt;Datacenter&lt;/h1&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Datahub has been designed and implemented by the QIoT technical team and is made up of several services and business logic to manage, store, aggregate and retrieve data.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Data types are split into two main categories: &lt;strong&gt;Station&lt;/strong&gt; and &lt;strong&gt;Telemetry&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Additionally, a third party data type is stored statically into the datahub in a raw format which is normalized and adapted to the Measurement format every time the QIoT Dashboard service performs a data search.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;main-diagram&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#main-diagram&quot;&gt;&lt;/a&gt;Main Diagram&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/datacenter-v2.png&quot; alt=&quot;datacenter v2&quot; width=&quot;100%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;platform-architecture&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#platform-architecture&quot;&gt;&lt;/a&gt;Platform architecture&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The infrastructure of the QIoT project must have flexible imprinting and should be easily scalable both horizontally and vertically.
+To fulfill the scalability requirements a Cloud-based platform is needed. The only compulsory prerequisite for the cloud provider is OCP certification.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;A graphical representation of the basic Infrastructure Architecture:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/datacenter-v2-infrastructure.png&quot; alt=&quot;datacenter v2 infrastructure&quot; width=&quot;100%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Based on the image above, here is the sizing of the infrastructure provisioned for the Openshift Container Platform:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;OCP Control Plane (master nodes)&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;#Servers: 3&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CPUs: 8&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;RAM: 24G&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OCP Worker Nodes:&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;#Servers: 3&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CPUs: 12&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;RAM: 64GB&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Storage Server: provides storage functionality to the infrastructure to store data safely and consistently on the disk. There’s no urgent/compulsory need to add this component to the infrastructure architecture, at least at the early stage of the project, because the basic amount of storage provided by the cloud platform would definitely cover all the needs described.&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Some additional storage will be needed in case of extended lifetime and participation in the project (i.e. lots more data arriving at the Data Hub). Anyway, just making use of the storage layer from the cloud provider of choice and installing Openshift Container Storage on top of it will guarantee horizontal scalability and data consistency all over the container platform out of the box.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Vertical scalability is guaranteed by the could platform.
+Horizontal scalability is guaranteed by Openshift by using the auto-scaling feature embedded in the container platform.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;red-hat-openshift-container-platform&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#red-hat-openshift-container-platform&quot;&gt;&lt;/a&gt;Red Hat Openshift Container Platform&lt;/h3&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/Logo-Red_Hat-OpenShift-A-Standard-RGB.png&quot; alt=&quot;Logo Red Hat OpenShift A Standard RGB&quot; width=&quot;20%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Red Hat OpenShift is the hybrid cloud platform of open possibility: powerful, so you can build anything and flexible, so it works anywhere.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Adopting the Openshift container platform made us save tons of hors implementing features and behaviors supposed to be home cooked, otherwise:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Native pipelines using Tekton&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;One-shot installation using Helm charts&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2-day operations using Operator Framework&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Container storage&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Security and Isolation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Automate cluster scalability&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More about Openshift Container Platform can be found &lt;a href=&quot;https://www.openshift.com/learn/developer&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;software-infrastructure-components&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#software-infrastructure-components&quot;&gt;&lt;/a&gt;Software infrastructure components&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;a-mq&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#a-mq&quot;&gt;&lt;/a&gt;A-MQ&lt;/h3&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/Logo-Red_Hat-AMQ-A-Standard-RGB.png&quot; alt=&quot;Logo Red Hat AMQ A Standard RGB&quot; width=&quot;20%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Exposes the endpoint for the telemetry coming from the measurement stations. The endpoint is exposed through the &lt;a href=&quot;https://mqtt.org/&quot;&gt;MQTT protocol&lt;/a&gt;, protocol of choice for the implementation of IoT architectures.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Since it is possible to send two different type of telemetries (pollution and/or gas), The A-MQ broker manages two isolated and scalable topics:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;pollution&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;gas&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Technical details about the telemetry and the endpoints to be given in the next chapters.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;AMQ Broker is a pure-Java multiprotocol message broker. It’s built on an efficient, asynchronous core with a fast native journal for message persistence and the option of shared-nothing state replication for high availability.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Persistence - A fast, native-IO journal or a JDBC-based store&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;High availability - Shared store or shared-nothing state replication&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Advanced queueing - Last value queues, message groups, topic hierarchies, and large message support&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Multiprotocol - AMQP 1.0, MQTT, STOMP, OpenWire, and HornetQ Core&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Integration - Full integration with Red Hat JBoss EAP&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;AMQ Broker is based on the &lt;a href=&quot;https://activemq.apache.org/artemis/&quot;&gt;Apache ActiveMQ Artemis&lt;/a&gt; project.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;a-mq-streams&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#a-mq-streams&quot;&gt;&lt;/a&gt;A-MQ Streams&lt;/h3&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/logo-strimzi.png&quot; alt=&quot;logo strimzi&quot; width=&quot;20%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/logo-kafka.png&quot; alt=&quot;logo kafka&quot; width=&quot;20%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In the forecast of the need for receiving/handling a large number of concurrent messages, A-MQ Streams is the component of choice for streaming messages through the integration and the storage layers. An internal streaming service guarantees scalability and reliability of the message flow management within the Datahub business logic.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The A-MQ Streams topics have the same design as the A-MQ topics: one topic per telemetry, with the chance to fine tune connections, scalability and message flow and retention separately.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This design makes it a lot easier to decouple the implementation details of the integration services responsible for offloading (consuming messages from) every topic and storing the values into the storage tier, improving horizontal scalability.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More about A-MQ Streams can be found &lt;a href=&quot;https://developers.redhat.com/blog/2019/06/06/accessing-apache-kafka-in-strimzi-part-1-introduction/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;influx-db&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#influx-db&quot;&gt;&lt;/a&gt;Influx DB&lt;/h3&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/logo-influxdb.png&quot; alt=&quot;logo influxdb&quot; width=&quot;20%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Timeseries database engines are the technology of choice to store the telemetry coming from the IoT devices in an Edge Computing scenario.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;For this usecase we have picked up Influxdb, as it guarantees, scalability, reliability and a level of performances not achievable using other competitors on the market.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Moreover, InfluxDB is the essential time series toolkit — dashboards, queries, tasks and agents all in one place.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;As well as for the previous software infrastructure components used to receive and stream data, we have decided to go for a separation by telemetry-time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More about InfluxDB can be found &lt;a href=&quot;https://www.influxdata.com/products/influxdb/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;postgresql&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#postgresql&quot;&gt;&lt;/a&gt;PostgreSQL&lt;/h3&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/logo-postgresql.png&quot; alt=&quot;logo postgresql&quot; width=&quot;10%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The relational database engine is used to store non-timeseries data like:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Measurement Station data&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Third-party station data&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Aggregated third-party measurements&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More about PostgreSQL can be found &lt;a href=&quot;https://www.postgresql.org/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;cert-manager&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#cert-manager&quot;&gt;&lt;/a&gt;Cert-manager&lt;/h3&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/logo-cert-manager.png&quot; alt=&quot;logo cert manager&quot; width=&quot;10%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Cert-manager automates certificate management in cloud native environments and thus helped with the implementation of a dynamic certificate provisioning for edge devices&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;cert-manager builds on top of Kubernetes, introducing certificate authorities and certificates as first-class resource types in the Kubernetes API.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This makes it possible to provide 'certificates as a service' to developers working within your Kubernetes cluster.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Highlights&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Provide easy to use tools to manage certificates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A standardised API for interacting with multiple certificate authorities (CAs).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gives security teams the confidence to allow developers to self-server certificates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Support for ACME (Let&amp;#8217;s Encrypt), HashiCorp Vault, Venafi, self signed and internal certificate authorities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Extensible to support custom, internal or otherwise unsupported CAs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More about out cert-manager implementation &lt;a href=&quot;https://qiot-project.github.io/blog/qiot-cert-manager/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More about Cert-Manageranager can be found &lt;a href=&quot;https://cert-manager.io/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;business-logic-architecture&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#business-logic-architecture&quot;&gt;&lt;/a&gt;Business logic architecture&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Datahub business logic is build on top of Quarkus framework. All the services run natively on top of the container technology and benefit from the features from the Serverless architecture.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;A separate discussion must be done for the Dashboard, which exposes diagrams based on the telemetry coming from the measurement stations and in implemented on top of RedHat build of Node.js&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;registration-service&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#registration-service&quot;&gt;&lt;/a&gt;Registration Service&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Microservice implemented on top of the Quarkus Framework.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This service is compiled and runs in native mode.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It&amp;#8217;s responsible for the management of the Edge Device in the ecosystem.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It exposes a rest API secured with mutual authentication. details about the exposed endpoints are available in the &lt;a href=&quot;#specs&quot;&gt;Specs&lt;/a&gt; section&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More details can be found in the &lt;a href=&quot;https://github.com/qiot-project/qiot-datahub-registration/tree/v2&quot;&gt;dedicated repository&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;station-service&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#station-service&quot;&gt;&lt;/a&gt;Station Service&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Microservice implemented on top of the Quarkus Framework.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It&amp;#8217;s responsible for the management of the Edge Device data.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Data are stored in PostgreSQL to take advantage of the CRUD operations.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;As this service is used by the Collectors to enrich the incoming telemetry, the data are locally cached using a 2nd level cache&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More details can be found in the &lt;a href=&quot;https://github.com/qiot-project/qiot-datahub-station&quot;&gt;dedicated repository&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;localization-service&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#localization-service&quot;&gt;&lt;/a&gt;Localization Service&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Microservice implemented on top of the Quarkus Framework.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Simple route to convert the coordinates sent by the Measurement station at registration time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In order to perform the Reverse Geocoding, the service calls the REST APIs exposed by a third party service: &lt;a href=&quot;https://nominatim.org/release-docs/latest/api/Reverse/#examples&quot;&gt;Nominatim&lt;/a&gt; by OpenStreetMap&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;pollutiongas-collector&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#pollutiongas-collector&quot;&gt;&lt;/a&gt;Pollution/Gas Collector&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Microservice implemented on top of the Quarkus Framework.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This service is compiled and runs in native mode.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This service is responsible for validating/enriching/storing the raw telemetry coming from the stations.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The main reason why we&amp;#8217;ve split the two services is for scalability and extensibility purposes:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Thanks to the &lt;a href=&quot;https://github.com/qiot-project/qiot-datahub-collector/tree/main/qiot-datahub-collector-commons&quot;&gt;Commons module&lt;/a&gt;, it&amp;#8217;s easy to extend the group of services to make them accept an additional telemetry type;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As the frequency of incoming messages per telemetry type can vary, scaling feature affects only one service in the group;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More details can be found in the &lt;a href=&quot;https://github.com/qiot-project/qiot-datahub-collector&quot;&gt;dedicated repository&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;pollutiongas-storer&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#pollutiongas-storer&quot;&gt;&lt;/a&gt;Pollution/Gas Storer&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Microservice implemented on top of the Quarkus Framework.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This service is responsible for store the messages consumed from the A-MQ Streams component into the time-series database.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The main reaso why we&amp;#8217;ve split the two services is for scalability and extensibility purposes:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Thanks to the &lt;a href=&quot;https://github.com/qiot-project/qiot-datahub-storer/tree/v2/qiot-datahub-storer-commons&quot;&gt;Commons module&lt;/a&gt;, it&amp;#8217;s easy to extend the group of services to make them accept an additional telemetry type;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As the frequency of incoming messages per telemetry type can vary, scaling feature affects only one service in the group;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Due to the incompatibility of the &lt;a href=&quot;https://github.com/influxdata/influxdb-client-java&quot;&gt;Java Client for InfluxDB&lt;/a&gt; with Quarkus native mode, the service is compiled using the standard java fast-jar mode.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More details can be found in the &lt;a href=&quot;https://github.com/qiot-project/qiot-datahub-storer/tree/v2&quot;&gt;dedicated repository&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;importer-service&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#importer-service&quot;&gt;&lt;/a&gt;Importer Service&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Microservice implemented on top of the Quarkus Framework.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This service is compiled and runs in native mode.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This service is responsible for importing the data from third-party services directly into the relational database.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;More details can be found in the &lt;a href=&quot;https://github.com/qiot-project/qiot-datahub-storer/tree/v2&quot;&gt;dedicated repository&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;real-time-dashboard&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#real-time-dashboard&quot;&gt;&lt;/a&gt;Real-time Dashboard&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;WIP&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;dashboard&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#dashboard&quot;&gt;&lt;/a&gt;Dashboard&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;WIP&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;functional-overview&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#functional-overview&quot;&gt;&lt;/a&gt;Functional Overview&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The following sections give an overview of the business logic implemented through the interaction between the microservices described above:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;registration-phase&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#registration-phase&quot;&gt;&lt;/a&gt;Registration phase&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The registration phase of the COVID-19 use-case implementation is a key component of the overall business logic&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It is actually the entry-level functionality for each and every edge device willing to connect and send the telemetry to the datacenter.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;As the endpoint is secured via mutual authentication, the client is supposed to use the certificates or key-/trust- store pair available in the registration service repository at this &lt;a href=&quot;https://github.com/qiot-project/qiot-datahub-registration/tree/v2/src/main/resources/certs&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Once a register request has been received by the service, it performs the following actions within a single transaction:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Provisions a new key-/trust- store pair for the MQTT endpoint&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Contacts the cert-issues deployed by cert-manager into the project namespace, asking for a certificate belonging to the service domain.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Encrypt the content of both the keystore and the truststore to make it safely deliverable back to the caller in the response data&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Asks the &lt;a href=&quot;#station-service&quot;&gt;Station Service&lt;/a&gt; to persist the data of the new measurement station.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;If one of the two main actions fail, the operation is rolled back entirely.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;BEWARE&lt;/strong&gt;: it&amp;#8217;s not allowed to delete an existing measurement station. We decided to adhere to the standard behavior of an IoT/Edge Computing system where a certificate/registration gets revoked only in case of a cyber attack to the registered device&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/datacenter-v2-registration.png&quot; alt=&quot;datacenter v2 registration&quot; width=&quot;75%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;telemetry-production&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#telemetry-production&quot;&gt;&lt;/a&gt;Telemetry production&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The edge device produces MQTT messages containing the telemetry collected through its sensors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ATM, we the use-case implementation exposes two endpoints:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;gas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;pollution&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In order to connect to the MQTT endpoints exposed by the A-MQ broker, the client implemented on the edge side must use the key- / trust- store pairs received by the registration service.
+Thos ingo get validated by the CA connected to A-MQ and thus must belong to the COVID-19 domain&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/datacenter-v2-telemetry-production.png&quot; alt=&quot;datacenter v2 telemetry production&quot; width=&quot;75%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;telemetry-validation-and-enrichment&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#telemetry-validation-and-enrichment&quot;&gt;&lt;/a&gt;Telemetry validation and enrichment&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In order to reduce the network traffic and improve the process of transmitting data through the network, the data contained in the telemetry must be reduced to the minimum meaningful information:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Station ID&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;instant&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;telemetry-specific data&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;for each and every of those key/value pair we implemented a validator, implicit or esplicit, that checks the data as umarshal-time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The above is possible using the mashalling/unmarshalling features coming with the java-based json libraries belonging to the Quarkus Universe.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The data contained in the telemetry sent by the edge device are, indeed, not complete/extended enough for a dashboard or analytic process and thus we went for the implementation of a route-like service which validates and enriches the incoming telemetry.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;For each and every telemetry belonging to its specific domain, the &lt;a href=&quot;#Collector Service&quot;&gt;[Collector Service]&lt;/a&gt;:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;validates the telemetry unmarshalling the raw string;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;connects to the &lt;a href=&quot;#station-service&quot;&gt;Station Service&lt;/a&gt; to gather the data to enrich the data object;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;marshals the enriched object into a json-based string&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;produces a new message to the internal streaming service;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/datacenter-v2-telemetry-validation-enrichment.png&quot; alt=&quot;datacenter v2 telemetry validation enrichment&quot; width=&quot;75%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;scalability-of-the-data-flow&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#scalability-of-the-data-flow&quot;&gt;&lt;/a&gt;Scalability of the data-flow&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The main function of A-MQ streams is to provide to the entire namespace (and, eventually, to other namespaces requesting access to the internal data) a scalable dataflow management system.
+In the diagram snippet below, you can see how scalability works in terms of streaming service and consumers of the telemetry.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It would definitely be easier to develop the connection between datasource and database using plugin, but would definitely cut off most of the enterprise grade features a system must definitely have.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The scalability concept applies to the &lt;a href=&quot;#Storer Service&quot;&gt;[Storer Service]&lt;/a&gt; exactly in the same way it applies to the collectors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Each storer service is responsible for its specific data and is just one example of subscriber from the platform extensibility perspective.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;About the timeseries database, we decided to go for une bucket and two different series, dedicated to each telemetry.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;An additional telemetry would require a new series to be created.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/datacenter-v2-dataflow.png&quot; alt=&quot;datacenter v2 dataflow&quot; width=&quot;75%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;data-view&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#data-view&quot;&gt;&lt;/a&gt;Data view&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;WIP&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;/assets/images/posts/usecase-covid-19/datacenter-v2-view.png&quot; alt=&quot;datacenter v2 view&quot; width=&quot;75%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;specs&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#specs&quot;&gt;&lt;/a&gt;Specs&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;registration-service-2&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#registration-service-2&quot;&gt;&lt;/a&gt;Registration Service&lt;/h3&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-yaml hljs&quot; data-lang=&quot;yaml&quot;&gt;---
+openapi: 3.0.2
+info:
+  title: QioT - Registration Service
+  description: Registration Service
+  version: 1.0.0
+paths:
+  /register:
+    summary: Path used to manage the list of registerrequests.
+    description: &quot;The REST endpoint/path used to list and create zero or more `RegisterRequest`\
+      \ entities.  This path contains a `GET` and `POST` operation to perform the\
+      \ list and create tasks, respectively.&quot;
+    post:
+      summary: Create a RegisterRequest
+      description: Creates a new instance of a `RegisterRequest`.
+      operationId: createRegisterRequest
+      requestBody:
+        description: A new `RegisterRequest` to be created.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterRequest'
+        required: true
+      responses:
+        &quot;201&quot;:
+          description: Successful response.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RegisterResponse'
+  /register/{id}:
+    summary: Path used to manage a single RegisterRequest.
+    description: &quot;The REST endpoint/path used to get, update, and delete single instances\
+      \ of an `RegisterRequest`.  This path contains `GET`, `PUT`, and `DELETE` operations\
+      \ used to perform the get, update, and delete tasks, respectively.&quot;
+    get:
+      summary: Get a RegisterRequest
+      description: Gets the details of a single instance of a `RegisterRequest`.
+      operationId: getRegisterRequest
+      responses:
+        &quot;200&quot;:
+          description: Successful response - returns a single `RegisterResponse`.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RegisterResponse'
+  /v1/register:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterRequest'
+      responses:
+        &quot;200&quot;:
+          description: OK
+components:
+  schemas:
+    RegisterRequest:
+      title: Root Type for RegisterRequest
+      description: &quot;&quot;
+      type: object
+      properties:
+        serial:
+          type: string
+        name:
+          type: string
+        longitude:
+          format: double
+          type: number
+        latitude:
+          format: double
+          type: number
+        keyStorePassword:
+          description: KeyStore Password
+          type: string
+      example:
+        serial: some text
+        name: some text
+        longitude: 3.6
+        latitude: 29.41
+        keyStorePassword: some text
+    RegisterResponse:
+      description: &quot;&quot;
+      required:
+      - id
+      - truststore
+      - keystore
+      type: object
+      properties:
+        id:
+          description: &quot;&quot;
+          type: string
+        truststore:
+          format: byte
+          description: &quot;&quot;
+          type: string
+        keystore:
+          format: byte
+          description: &quot;&quot;
+          type: string
+      example:
+        id: some text
+        truststore: &amp;lt;FILE&amp;gt;
+        keystore: &amp;lt;FILE&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RegisterRequest&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;serial&lt;/strong&gt; must be a standard Raspberry Pi ID. More info &lt;a href=&quot;https://www.raspberrypi.org/documentation/hardware/raspberrypi/otpbits.md&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; must be a single, lowercase word, validated using the regex&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;&quot;[a-z0-9]([-a-z0-9]*[a-z0-9])?(\\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*&quot;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;longitude&lt;/strong&gt; and &lt;strong&gt;latitude&lt;/strong&gt; must be standard coordinate values. we recommend to use the &lt;a href=&quot;https://nominatim.openstreetmap.org/ui/search.html&quot;&gt;Nominatim&lt;/a&gt; service by OpenStreetMap&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RegisterResponse&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;id&lt;/strong&gt; is the final/unique identification string of the measurement station and is string representation of an immutable universally unique identifier (UUID). The value must be embedded in each and every telemetry sent to the MQTT endpoints&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;truststore&lt;/strong&gt; and &lt;strong&gt;keystore&lt;/strong&gt; are string representation of the encrypted content for each store. We recommend to decrypt them on the edge device using the following code snippet:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;...
+import java.util.Base64;
+
+...
+
+byte[] content = Base64.getDecoder().decode(encodedString.getBytes(StandardCharsets.UTF_8));&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;pollution&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#pollution&quot;&gt;&lt;/a&gt;Pollution&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;PMS5003 output explained (&lt;a href=&quot;https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-enviro-plus&quot;&gt;source&lt;/a&gt;)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-json hljs&quot; data-lang=&quot;json&quot;&gt; {
+    &quot;stationId&quot;:string*,
+    &quot;instant&quot;:string**,
+    &quot;PM1_0&quot;:int,
+    &quot;PM2_5&quot;:int,
+    &quot;PM10&quot;:int,
+    &quot;PM1_0_atm&quot;:int,
+    “PM2_5_atm&quot;:int,
+    &quot;PM10_atm&quot;:int,
+    &quot;gt0_3um&quot;:int,
+    &quot;gt0_5um&quot;:int,
+    &quot;gt1_0um&quot;:int,
+    &quot;gt2_5um&quot;:int,
+    &quot;gt5_0um&quot;:int
+    &quot;gt10um&quot;:int
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;(*) The instant value must be a string representation of an immutable universally unique identifier (UUID).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;(**) The instant value must be a string representation of an instant using &lt;a href=&quot;https://en.wikipedia.org/wiki/ISO_8601&quot;&gt;ISO-8601&lt;/a&gt; representation&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;And example of expected values:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-json hljs&quot; data-lang=&quot;json&quot;&gt;{&quot;stationId&quot;:3,&quot;instant&quot;:&quot;2020-09-07T10:01:42.002818Z&quot;,&quot;gt0_3um&quot;:21366,&quot;gt0_5um&quot;:5774,&quot;gt1_0um&quot;:14,&quot;gt2_5um&quot;:1355,&quot;gt5_0um&quot;:126,&quot;gt10um&quot;:59,&quot;pm1_0&quot;:240,&quot;pm2_5&quot;:156,&quot;pm10&quot;:114,&quot;pm1_0_atm&quot;:81,&quot;pm2_5_atm&quot;:204,&quot;pm10_atm&quot;:134}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;gas&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#gas&quot;&gt;&lt;/a&gt;Gas&lt;/h3&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-json hljs&quot; data-lang=&quot;json&quot;&gt;{
+    &quot;stationId&quot;:int,
+    &quot;instant&quot;:string*,
+    &quot;adc&quot;:double,
+    &quot;nh3&quot;:double,
+    “oxidising&quot;:double,
+    &quot;reducing&quot;:double
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;(*) The instant value must be a string representation of an immutable universally unique identifier (UUID).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;(**) The instant value must be a string representation of an instant using &lt;a href=&quot;https://en.wikipedia.org/wiki/ISO_8601&quot;&gt;ISO-8601&lt;/a&gt; representation&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;And example of expected values:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-json hljs&quot; data-lang=&quot;json&quot;&gt;{&quot;stationId&quot;:0,&quot;instant&quot;:2020-09-07T10:01:42.002818Z,&quot;adc&quot;:128431.13772455092,&quot;nh3&quot;:192387.0967741936,&quot;oxidising&quot;:10594.594594594595,&quot;reducing&quot;:192387.0967741936}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;historical-data&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#historical-data&quot;&gt;&lt;/a&gt;Historical data&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In order to perform a proper analysis between current and previous air quality,we decided to import into the centralized system a bunch of historical data coming from a global air quality system: &lt;a href=&quot;https://waqi.info/&quot;&gt;WAQI&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The raw data source can be found &lt;a href=&quot;https://aqicn.org/data-platform/covid19/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;how-to-reproduce&quot; class=&quot;sect0&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#how-to-reproduce&quot;&gt;&lt;/a&gt;How to reproduce&lt;/h1&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;you can spin up the overall environment on a standard Docker environment.
+We distribute docker-compose files in this &lt;a href=&quot;https://github.com/qiot-project/qiot-datahub-docker/tree/v2&quot;&gt;repository&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Andrea Battaglia</name><email>abattagl@redhat.com</email></author><category term="usecase" /><summary type="html">Think of how damaged and polluted it was the environment at the moment COVID-19 started spreading… After a few weeks, the spread of the virus became global, with the hard effect of shutting down the whole human activity all over the world.</summary></entry><entry><title type="html">QIoT Hackfest Pilot @ Openshift tv</title><link href="/blog/qiot-hackfest-at-openshift-tv/" rel="alternate" type="text/html" title="QIoT Hackfest Pilot @ Openshift tv" /><published>2020-12-01T00:00:00+00:00</published><updated>2020-12-01T00:00:00+00:00</updated><id>/blog/qiot-hackfest-at-openshift-tv</id><content type="html" xml:base="/blog/qiot-hackfest-at-openshift-tv/">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The &lt;strong&gt;QIoT Community&lt;/strong&gt; streams from a business initiative released and ran by Red Hat.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This initiative has been piloted on Sep 2020 for 12 selected teams, each made up of 3-5 people, challenged to implement an Edge Computing solution using &lt;em&gt;enterprise&lt;/em&gt; and &lt;em&gt;opensource&lt;/em&gt; technologies.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The top 3 teams have been awarded and invited to join us in a discussion hosted by &lt;a href=&quot;https://www.openshift.com/streaming/twitch&quot;&gt;&lt;strong&gt;openshift tv&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Watch the episode linked below to get an overview of the first draft of the QIoT project and the initial idea behind the QIoT Hackfest event!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;videoblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/c7B7EohWYV4?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Andrea Battaglia</name><email>abattagl@redhat.com</email></author><category term="blog" /><category term="qiot" /><category term="media" /><category term="openshifttv" /><summary type="html">The QIoT Community streams from a business initiative released and ran by Red Hat.</summary></entry><entry><title type="html">Welcome</title><link href="/blog/announcement-welcome/" rel="alternate" type="text/html" title="Welcome" /><published>2020-12-01T00:00:00+00:00</published><updated>2020-12-01T00:00:00+00:00</updated><id>/blog/announcement-welcome</id><content type="html" xml:base="/blog/announcement-welcome/">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;A warm welcome to all the guests of the QIoT project community!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;A few months ago, back in November 2020, a small group of redhatters in love with opensource spotted the opportunity to create a forum to discuss about innovation, have fun and tackle technical and business challenges.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We are seing this community growing organically and attracting more and more SMEs bringing new ideas and contribution to out PoCs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Feel free to have a look, investigate, test and leave a feedback.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We look forward to have you joining the project!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;The QIoT team&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Andrea Battaglia</name><email>abattagl@redhat.com</email></author><category term="announcement" /><category term="announcement" /><summary type="html">A warm welcome to all the guests of the QIoT project community!</summary></entry></feed>
